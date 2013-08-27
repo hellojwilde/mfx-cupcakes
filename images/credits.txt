@@ -1,0 +1,26 @@
+Credits
+=======
+
+All of the following are licensed under Creative Commons (CC BY 3.0):
+
+ - computer-icon.svg: <a href="http://thenounproject.com/noun/computer/#icon-No116" target="_blank">Computer</a> from The Noun Project
+ - laptop-icon.svg: <a href="http://thenounproject.com/noun/laptop/#icon-No114" target="_blank">Laptop</a> from The Noun Project
+ - tablet-icon.svg: <a href="http://thenounproject.com/noun/tablet/#icon-No15618" target="_blank">Tablet</a> designed by <a href="http://thenounproject.com/olauslinn" target="_blank">Olaus Linn</a> from The Noun Project
+ - marker-icon.svg: <a href="http://thenounproject.com/noun/marker/#icon-No18908" target="_blank">Marker</a> designed by <a href="http://thenounproject.com/factor_e" target="_blank">factor[e] design initiative</a> from The Noun Project
+
+All of the following are in the public domain:
+
+ - page-icon.svg: <a href="http://thenounproject.com/noun/web-page/#icon-No8974" target="_blank">Web Page</a> designed by <a href="http://thenounproject.com/Gatada">Johan H. W. Basberg</a> from The Noun Project
+
+All of the following are copyrighted, but used in the presentation with
+commentary (which should in theory count as fair use):
+
+ - start.png: screenshot of my Windows 8 start
+ - desktop.png: screenshot of my Windows 8 desktop
+
+All of the following were made by me:
+
+ - WP_20130619_004.jpg
+ - WP_20130710_001.jpg
+ - WP_20130710_005.jpg
+ - overview.jpg

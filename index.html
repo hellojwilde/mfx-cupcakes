@@ -1,253 +1,386 @@
 <!DOCTYPE html>
 
 <meta charset="utf-8">
-<title>Metro Firefox's Front End</title>
+<title>&#x1F354;&#x1F370;&#x1F680;</title>
 
 <!-- Slides -->
 <!-- One section is one slide -->
 
 <section class="cover">
-  <h1>Metro Firefox's Front End</h1>
+  <h1>&#x1F354;&#x1F370;&#x1F680;</h1>
+  <h2>Developments in Metro Firefox</h2>
+
   <footer>
-    <div>jwilde // summer 2012</div>
+    <div>jwilde // summer 2013</div>
   </footer>
 </section>
 
 <section>
-  <figure><img src="images/home.jpg" style="margin-top: -50px"></figure>
-  <footer>
-    <dl>
-      <dt>Visual</dt>
-      <dd>Stephen Horlander</dd>
-      
-      <dt>UX</dt>
-      <dd>Yuan Wang</dd>
-  
-      <dt>Mentor</dt>
-      <dd>Frank Yan</dd>
-    </dl>
-  </footer>
-</section>
-
-<section>
-  <ul class="incremental">
-    <li><del>Reskin</del>
-    <li><del>Metro app</del>
-    <li>Metro style enabled desktop browser
-  </ul>
-</section>
-
-<section>
-  <figure>
-    <img src="images/classic.jpg">
-    <figcaption>Classic</figcaption>
-  </figure>
-</section>
-
-<section>
-  <figure>
-    <img src="images/home.jpg">
-    <figcaption>Metro</figcaption>
-  </figure>
-</section>
-
-<section>
-  <div class="replace">
-  <p><del>Firefox for Mobile</del><br/>
-  Metro Firefox</p>
-  </div>
-</section>
-
-<section>
-  <blockquote>
-    Fennec is designed for smaller screens, lower CPU & memory specs, non-qwerty keyboards and touchscreens.
-  </blockquote>
-</section>
-
-<section>
-  <blockquote>
-    Are there animations there at all?
-  </blockquote>
-</section>
-
-<section>
-  <blockquote>
-    <span class="teaser">Fennec is designed for smaller screens,</span> 
-    lower CPU & memory specs, 
-    <span class="teaser">non-qwerty keyboards and touchscreens.</span>
-  </blockquote>
-</section>
-
-<section>
-  <p style="padding: 100px 0;">
-    <strong>Nokia N900</strong><br/>
-    256 MB physical memory<br/>
-    (+ swap space)
-  </p>
-</section>
-
-<section>
-  <p style="padding: 100px 0;">
-    Speed on slower hardware<br/>
-    <strong>doesn't always indicate</strong><br/>
-    speed on fast hardware.
-  </p>
-</section>
-
-<section>
-  <h2>A Metaphor</h2>
+  <h2>Mentors!</h2>
   <dl>
-    <dt>Area</dt>
-    <dd>Your device</dd>
-    <dt>Car</dt>
-    <dd>Your browser</dd>
-    <dt>Liters</dt>
-    <dd>Browser's memory footprint</dd>
+    <dt>Eng</dt>
+    <dd>Frank Yan</dd>
+    <dd>Ally Naaktgeboren</dd>
+    <dd>Matt Brubeck</dd>
+
+    <dt>UX</dt>
+    <dd>Yuan Wang</dd>
   </dl>
 </section>
 
 <section>
+  <blockquote>What's Metro?</blockquote>
+</section>
+
+<section>
+  <figure>
+    <img src="images/desktop.png">
+    <figcaption class="figure-overlay">
+      A bit of backstory.
+    </figcaption>
+  </figure>
+</section>
+
+<section>
+  <figure>
+    <img src="images/desktop.png">
+  </figure>
+</section>
+
+<section>
+  <figure>
+    <img src="images/desktop.png">
+    <figcaption class="figure-overlay">
+      <img class="figure-overlay-icon" src="images/computer-icon.svg"/>
+      <img class="figure-overlay-icon" src="images/laptop-icon.svg"/>
+    </figcaption>
+  </figure>
+</section>
+
+<section>
+  <figure>
+    <figcaption class="figure-overlay" style="margin-top: -60px;">
+      <img class="figure-overlay-icon" src="images/tablet-icon.svg"/>
+      <span class="figure-overlay-icon-label">?</span>
+    </figcaption>
+  </figure>
+</section>
+
+<section>
+  <figure>
+    <img src="images/start.png">
+  </figure>
+</section>
+
+<section class="two-figures">
+  <figure>
+    <img src="images/desktop.png"/>
+    <figcaption>
+      <img src="images/computer-icon.svg"/>
+      <img src="images/laptop-icon.svg"/>
+    </figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/start.png">
+    <figcaption>
+      <img src="images/tablet-icon.svg"/>
+    </figcaption>`
+  </figure>
+</section>
+
+<section>
+  <blockquote>Metro-style enabled desktop browser</blockquote>
+</section>
+
+<section>
+  <h2>The Catch</h2>
   <p>
-    A <strong>mobile phone</strong> is like Embarcadero in SF at rush hour.
+    If you don't support Metro,
+    users probably won't keep you as the default.
   </p>
 </section>
 
 <section>
-  <p>
-    Gasoline is <strong>expensive</strong>. <br/>
-    There's lots of traffic <br/> slowing you down.<br/>
-  </p>
+  <figure>
+    <img src="images/overview.jpg"/>
+    <figcaption class="figure-overlay">
+      A year ago.
+    </figcaption>
+  </figure>
 </section>
 
 <section>
-  <p>
-    You're best off with a bicycle.
-  </p>
+  <figure>
+    <img src="images/overview.jpg"/>
+  </figure>
 </section>
 
 <section>
-  <p>
-    A <strong>laptop</strong> is like an interstate.
-  </p>
+  <figure>
+    <img src="images/overview.jpg"/>
+  </figure>
+  <figcaption class="figure-arrow">
+    Essentially, prototype-quality.
+  </figcaption>
 </section>
 
 <section>
-  <p>
-    Gas is <strong>cheaper</strong>. <br/>
-    There's less traffic, so you can make better use of your engine.
-  </p>
+  <figure>
+    <img src="images/overview.jpg"/>
+    <figcaption class="figure-overlay">
+      &#x1F55E; Fast forward a year&hellip;
+    </figcaption>
+  </figure>
 </section>
 
 <section>
-  <p>
-    Get a real car.
-  </p>
+  <figure>
+    <img src="http://farm4.staticflickr.com/3180/3009100633_3c4d51a6b6_b.jpg"/>
+    <!-- TODO -->
+    <figcaption class="figure-overlay" style="padding-top: 460px; background-color: transparent;">
+      &hellip; there's been some changes.
+    </figcaption>
+  </figure>
 </section>
 
 <section>
-  <h2>Tuning</h2>
-  <p>
-    metro.js<br/>
-    Garbage collection<br />
-    CSS animation
-  </p>
+  <h1>On Microsoft's end&hellip;</h1>
 </section>
 
 <section>
-  <p>
-    We're a lot snappier now.
-  </p>
+  <h1>Windows 8.1</h1>
 </section>
 
 <section>
-  <p>How do you test across multiple devices?</p>
-</section>
-
-<section>
-  <ul class="incremental">
-    <li>Separate working copies.
-    <li>Patch queue.
-    <li>Sync with hg.
+  <ul class="incremental windows">
+    <li><del>Metro</del></li>
+    <li>Modern UI style</li>
+    <li>Microsoft design language</li>
+    <li>Windows 8 style</li>
+    <li>New experience enabled</li>
+    <li>New user experience</li>
+    <li>Windows Store style</li>
   </ul>
 </section>
 
 <section>
-  <p>This seemed inefficient.</p>
+  <blockquote>Metro Firefox*</blockquote>
+
+  <footer class="asterisk">
+    <p>
+      * Just for the purposes of this presentation.
+      Not reflective of final public naming.
+      More <a href="https://metro.etherpad.mozilla.org/31">nomenclature</a>.
+    </p>
+  </footer>
 </section>
 
 <section>
-  <div class="replace">
-  <p><del>42</del><br/>
-  Dropbox</p>
-  </div>
+  <h1>On Mozilla's end&hellip;</h1>
 </section>
 
 <section>
-  <h2>Version #1</h2>
-  <p>Link [obj]/dist into Dropbox.<br/>
-  Builds get synced on compile.</p>
+  <h1 style="margin-bottom: 0; padding-bottom: 0">6 &rarr; 17</h1>
+  <h2 style="background: transparent;
+color: black;
+margin: 0;
+padding-top: 0;color: #999">Mozillians working on the deliverable</h2>
 </section>
 
 <section>
-  <blockquote>
-  15:23:55 - yuan: is there any other way for you to share your front-end work? jwilde
-  </blockquote>
+  <h2 class="small">I spent about 2/3 of my time helping with that:</h2>
+
+  <ul class="bugs">
+    <li>874963</li>
+    <li>774870</li>
+    <li>811406</li>
+    <li>811392</li>
+    <li>885541</li>
+    <li>891213</li>
+    <li>879631</li>
+    <li>886589</li>
+    <li>887120</li>
+    <li>885242</li>
+    <li>894949</li>
+    <li>892241</li>
+    <li>899726</li>
+    <li>781002</li>
+    <li>886624</li>
+    <li>894715</li>
+    <li>903287</li>
+    <li>903294</li>
+    <li>883390</li>
+    <li>856264</li>
+    <li>895873</li>
+    <li>896082</li>
+    <li>892705</li>
+    <li>867543</li>
+    <li>888067</li>
+    <li>877765</li>
+    <li>877666</li>
+    <li>811413</li>
+    <li>891656</li>
+  </ul>
 </section>
 
 <section>
-  <div class="replace">
-  <p><del>42</del><br/>
-  Dropbox</p>
-  </div>
-</section>
+  <h2 class="small">I spent about 2/3 of my time helping with that:</h2>
 
-<section>
-  <p>Made some setup scripts.<br/>
-  Wrote <a href="https://etherpad.mozilla.org/jwilde-awesomesauce-metro-builds">documentation</a>.</p>
-</section>
-
-<section>
-  <p><strong>Problem</strong><br/>Builds get synced on compile.</p>
-</section>
-
-<section>
-  <h2>Version #2</h2>
-  <p>Builds put in staging folder.<br/>
-  Synced when a deploy script is run.</p>
-</section>
-
-<section>
-  <p><strong>Problems</strong><br/>
-  File locks.<br/>
-  Security.</p>
-</section>
-
-<section>
-  <p>12 users.<br/>
-  Thank you for all of the feedback!</p>
+  <ul class="bugs">
+    <li>874963</li>
+    <li><strong>774870</strong></li>
+    <li><strong>811406</strong></li>
+    <li><strong>811392</strong></li>
+    <li><strong>885541</strong></li>
+    <li>891213</li>
+    <li>879631</li>
+    <li>886589</li>
+    <li>887120</li>
+    <li><strong>885242</strong></li>
+    <li>894949</li>
+    <li><strong>892241</strong></li>
+    <li>899726</li>
+    <li>781002</li>
+    <li>886624</li>
+    <li>894715</li>
+    <li><strong>903287</strong></li>
+    <li><strong>903294</strong></li>
+    <li><strong>883390</strong></li>
+    <li>856264</li>
+    <li>895873</li>
+    <li>896082</li>
+    <li>892705</li>
+    <li>867543</li>
+    <li><strong>888067</strong></li>
+    <li><strong>877765</strong></li>
+    <li><strong>877666</strong></li>
+    <li>811413</li>
+    <li>891656</li>
+  </ul>
 </section>
 
 <section class="cover">
-  <h1>Lots left to do.</h1>
+  <h1>&#x1F354;<br/>Navbar</h1>
+</section>
+
+<section class="bug">
+  <div class="number">Bug 774870</div>
+  <h1>Unicode</h1>
+  <ul class="incremental" class="beforeafter">
+    <li>http://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8/</li>
+    <li>http://ja.wikipedia.org/wiki/メインページ/</li>
+  </ul>
+</section>
+
+<section class="bug">
+  <div class="number">Bug 811406</div>
+  <h1>Trimming</h1>
+  <ul class="incremental" class="beforeafter">
+    <li>http://ja.wikipedia.org/wiki/メインページ/</li>
+    <li>ja.wikipedia.org/wiki/メインページ</li>
+  </ul>
+</section>
+
+<section class="bug">
+  <div class="number">Bug 811406</div>
+  <h1>Domain Highlighting</h1>
+  <ul class="incremental" class="beforeafter">
+    <li>ja.wikipedia.org/wiki/メインページ</li>
+    <li class="highlight-example">ja.<em>wikipedia.org</em>/wiki/メインページ</li>
+    <li class="highlight-example">ja.wikipedia.<em>phish.xxx</em>/wiki/メインページ</li>
+  </ul>
 </section>
 
 <section>
-  <h2>Get Involved</h2>
-  <dl>
-    <dt>Code</dt>
-    <dd><a href="http://hg.mozilla.org/projects/elm">Elm</a> branch</dd>
-    <dt>Setup</dt>
-    <dd>"<a href="https://wiki.mozilla.org/Firefox/Windows_8_Integration#Metro_Builds">Metro Builds</a>" on wiki</dd>
-  </dl>
+  <h2>Half-Height Autocomplete</h2>
+  <p>Avoiding unneeded context-switching.</p>
+</section>
+
+<section>
+  <h1>So, that's 2/3 of my summmer.</h1>
+</section>
+
+<section>
+  <h1>What about the rest?</h1>
+</section>
+
+<section class="cover">
+  <h1>&#x1F370;<br/>Cupcakes</h1>
+</section>
+
+<section>
+  <blockquote>&hellip;something small, but very desirable.</blockquote>
+  <footer class="cite">
+    <cite>Brandon Schauer, Adaptive Path,<br/>
+    "<a href="http://www.adaptivepath.com/ideas/cupcakes-the-secret-to-product-planning">cupcakes: the secret to product planning</a>"</cite>
+  </footer>
+</section>
+
+<section>
+  <h1>Metro Firefox<br/>v2</h1>
+</section>
+
+<section>
+  <figure>
+    <img src="images/WP_20130619_004.jpg" style="width: 100%; height: auto; margin-top: -45%;"/>
+  </figure>
+</section>
+
+<section>
+  <figure>
+    <img src="images/WP_20130619_004.jpg" style="width: 100%; height: auto; margin-top: -45%;"/>
+    <figcaption class="figure-overlay">
+      "Bookmarks"
+    </figcaption>
+  </figure>
+</section>
+
+<section>
+  <figure>
+    <img src="images/WP_20130710_005.jpg" style="width: 100%; height: auto; margin-top: 10%;"/>
+  </figure>
+</section>
+
+<section>
+  <figure>
+    <figcaption class="figure-overlay">
+      They're not that helpful.
+    </figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2>Problem Space</h2>
+  <p>Bookmarks don't retain context.</p>
+</section>
+
+<section>
+  <figure>
+    <img src="images/WP_20130710_001.jpg" style="width: 100%; height: auto; margin-top: 10%;"/>
+  </figure>
+</section>
+
+<section>
+  <h1><img src="images/marker-icon.svg"/><br/>Highlights</h1>
+</section>
+
+<section>
+  <h1><img src="images/page-icon.svg"/><br/>Recipes</h1>
 </section>
 
 <section class="cover">
   <h1>Thank you.</h1>
-</section>
 
-<section class="cover">
-<h1>Thank you.</h1>
-  <footer><div>mfx.jwilde.me // hello@jwilde.me</div></footer>
+  <p class="end-cite">
+    <cite><a href="http://thenounproject.com/noun/computer/#icon-No116" target="_blank">Computer</a> from The Noun Project</cite>
+    <cite><a href="http://thenounproject.com/noun/laptop/#icon-No114" target="_blank">Laptop</a> from The Noun Project</cite>
+    <cite><a href="http://thenounproject.com/noun/tablet/#icon-No15618" target="_blank">Tablet</a> designed by <a href="http://thenounproject.com/olauslinn" target="_blank">Olaus Linn</a> from The Noun Project</cite>
+        <cite><a href="http://thenounproject.com/noun/marker/#icon-No18908" target="_blank">Marker</a> designed by <a href="http://thenounproject.com/factor_e" target="_blank">factor[e] design initiative</a> from The Noun Project</cite>
+
+  </p>
+
+  <footer><div>mfx-cupcakes.jwilde.me // hello@jwilde.me</div></footer>
 </section>
 
 <!-- Your Style -->
@@ -277,7 +410,24 @@
     text-align: center;
     margin: 1em 0 1em 0;
   }
-  
+
+  .end-cite {
+    margin-top: 35px;
+  }
+
+  .end-cite cite {
+    display: block;
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+  .end-cite cite,
+  .end-cite cite a {
+    font-style: normal;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
   .cover {
     background: #E35E03;
     color: #fff;
@@ -286,14 +436,23 @@
   .teaser {
     opacity: 0.5;
   }
-  
+
   .replace {
     margin: 200px 0;
   }
-  
+
   strong {
     font-weight: 300;
     color: #E35E03;
+  }
+
+  .highlight-example {
+    color: #999;
+  }
+
+  .highlight-example em {
+    color: black;
+    font-style: normal;
   }
 
   h1 {
@@ -302,6 +461,7 @@
     font-weight: 300;
     line-height: 120%;
   }
+
   h2 {
     background: #E35E03;
     color: #fff;
@@ -310,13 +470,46 @@
     padding: 50px 75px;
     margin: 45px 0 0 0;
   }
-  
+
+  .cover h1 {
+    margin-bottom: 0;
+  }
+
+  .cover h2 {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 45px;
+  }
+
+  .number {
+    padding: 50px 75px 0px;
+    display: block;
+  }
+
+  .beforeafter li {
+    margin-bottom: 15px;
+  }
+
+  .number ~ h1 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .number ~ h1 ~ ul {
+    margin-top: 0;
+    font-size: 35px;
+  }
+
+  number ~ h1 ~ ul {
+    padding-bottom: 10px;
+  }
+
   dl {
     padding: 60px 75px;
     font-size: 40px;
     background: #fff;
   }
-  
+
     dt {
       color: #999;
       float: left;
@@ -324,13 +517,41 @@
       padding-right: 50px;
       text-align: right;
     }
-  
+
+    dd {
+      margin-left: 175px;
+    }
+
   ul {
     list-style-type: none;
     font-size: 60px;
     margin: 120px 75px;
   }
-  
+
+  ul.windows {
+    margin: 75px;
+    font-size: 47px;
+  }
+
+  .small {
+    background: transparent;
+    color: #000;
+    font-size: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  ul.bugs {
+    -moz-column-count: 4;
+    margin: 60px 75px;
+    font-size: 35px;
+    color: #999;
+  }
+
+  .bug ul li {
+    margin-bottom: 20px;
+  }
+
   del {
     color: #999;
   }
@@ -354,6 +575,12 @@
       content: close-quote;
     }
 
+  blockquote ~ .asterisk p,
+  blockquote ~ .asterisk a {
+    color: white;
+    font-size: 25px;
+  }
+
   /* Figures are displayed full-page, with the caption
      on top of the image/video */
   figure {
@@ -361,11 +588,8 @@
     width: 100%;
     height: 100%;
   }
-    figure > * {
-      position: absolute;
-    }
     figure > img, figure > video {
-      width: 100%; height: 100%;
+      width: auto; height: 100%;
     }
     figcaption {
       margin: 75px 0;
@@ -373,16 +597,88 @@
       font-size: 50px;
       background: #fff;
     }
+    figcaption.figure-overlay {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      padding: 0;
+      margin: 0;
+      background: rgba(0,0,0,0.5);
+      color: #fff;
+
+      text-align: center;
+      padding-top: 240px;
+    }
+
+    figcaption.figure-overlay .figure-overlay-icon {
+      height: 112px;
+      width: auto;
+      margin: 0 20px;
+    }
+
+    figcaption.figure-overlay .figure-overlay-icon-label {
+      font-size: 160px;
+    }
+
+  .two-figures figure {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 100px 20px 20px 20px;
+    width: 50%;
+  }
+    .two-figures figure:first-of-type {
+      left: 0;
+      padding-right: 10px;
+    }
+    .two-figures figure:last-of-type {
+      right: 0;
+      padding-left: 10px;
+    }
+    .two-figures figure > img {
+      width: 100%;
+      height: auto;
+    }
+    .two-figures figure > figcaption {
+      background: transparent;
+      padding: 10px;
+      margin: 0;
+      text-align: center;
+    }
+    .two-figures figure > figcaption > img {
+      margin: 10px;
+    }
 
   footer {
     position: absolute;
     bottom: 0;
     width: 100%;
   }
-  
+
     footer > div {
       padding: 75px;
       font-size: 20px;
+    }
+
+  footer.cite {
+    padding: 20px;
+  }
+
+    footer.cite > cite {
+      color: #fff;
+      display: block;
+      text-align: right;
+      font-size: 14px;
+      font-style: normal;
+      text-transform: uppercase;
+      font-weight: 900;
+    }
+
+    footer.cite > cite,
+    footer.cite > cite > a {
+      color: #fff;
     }
 
   .view section[aria-selected] {
@@ -821,7 +1117,7 @@
       requestFullscreen.apply(html);
     }
   }
-  
+
   Dz.setProgress = function(aIdx, aStep) {
     var slide = $("section:nth-of-type("+ aIdx +")");
     if (!slide)
@@ -831,14 +1127,14 @@
         stepSize = slideSize / steps;
     this.progressBar.style.width = ((aIdx - 1) * slideSize + aStep * stepSize) + '%';
   }
-  
+
   Dz.postMsg = function(aWin, aMsg) { // [arg0, [arg1...]]
     aMsg = [aMsg];
     for (var i = 2; i < arguments.length; i++)
       aMsg.push(encodeURIComponent(arguments[i]));
     aWin.postMessage(aMsg.join(" "), "*");
   }
-  
+
   function init() {
     Dz.init();
     window.onkeydown = Dz.onkeydown.bind(Dz);
@@ -856,7 +1152,7 @@
     Function.prototype.bind = function (oThis) {
 
       // closest thing possible to the ECMAScript 5 internal IsCallable
-      // function 
+      // function
       if (typeof this !== "function")
       throw new TypeError(
         "Function.prototype.bind - what is trying to be fBound is not callable"
