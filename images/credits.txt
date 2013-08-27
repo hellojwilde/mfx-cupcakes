@@ -1,6 +1,10 @@
 Credits
 =======
 
+No longer in presentation, but licensed under Creative Commons (CC BY 2.0 NC ND):
+
+ - "Stand Clear of the Moving Platform" by Leo Newball, Jr. - http://www.flickr.com/photos/nexeus_fatale/3009100633/
+
 All of the following are licensed under Creative Commons (CC BY 3.0):
 
  - computer-icon.svg: <a href="http://thenounproject.com/noun/computer/#icon-No116" target="_blank">Computer</a> from The Noun Project
